@@ -1,4 +1,4 @@
-CNN
+CNN / СНС
 ===
 
-convolutional neural network
+Сверточные нейронные сети
