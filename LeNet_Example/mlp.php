@@ -39,7 +39,7 @@ class HiddenLayer {
 
 		if(!$W) {
 			$low	= -sqrt(6./($this->n_in + $this->n_out));	// Минимальный вес
-			$hight	= sqrt(6./($this->n_in + $this->n_out));		// Максимальный вес
+			$hight	= sqrt(6./($this->n_in + $this->n_out));	// Максимальный вес
 
 			for($i=0; $i<$this->n_in; $i++) {
 				for ($j=0; $j<$this->n_out; $j++) {
