@@ -21,6 +21,7 @@ class HiddenLayer {
 	var $W			= false;
 	var $b			= false;
 	var $activation	= "sigmoid";	// Нелинейность используемая в скрытом слое
+	var $output		= false;
 
 	function Init($input, $n_in, $n_out, $W=false, $b=false, $activation="sigmoid") {
 		/*
@@ -61,6 +62,8 @@ class HiddenLayer {
 				$this->b[$i] = 0;
 			}
 		}
+
+		
 	}
 }
 
